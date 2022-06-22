@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>requested work samples</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<style>
+	@import url("https://fonts.googleapis.com/css?family=Arbutus+Slab|Open+Sans&display=swap");
+body {
+  background: #F9F9F9;
+  color: #495456;
+  margin:50px;
+  font-family: Open Sans, sans-serif;
+}
+
+h2 {
+  font-family: Arbutus Slab, serif;
+  font-weight: normal;
+  color: #000;
+  line-height: 1.25;
+}
+
+p {
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 900px;
+  display: grid;
+  grid-gap: 48px;
+  margin: 0 auto;
+}
+
+.card {
+ 
+  position: relative;
+  height: 0;
+  padding-bottom: 120%;
+  --offset-multiplier: 4px;
+  transition: transform 0.6s ease;
+  --translate: 0;
+  transform: translate(var(--translate), var(--translate));
+}
+.card:hover {
+  --offset-multiplier: 6px;
+}
+
+
+.child {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px -4px 8px rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  transition: inherit;
+  --transhlate: calc(var(--offset) * var(--offset-multiplier));
+  transform: translate(var(--translate), var(--translate));
+  z-index: 5;
+}
+.child:nth-child(1) {
+  --offset: 0;
+  z-index: 4;
+}
+.child:nth-child(2) {
+  --offset: 1;
+  z-index: 3;
+}
+.child:nth-child(3) {
+  --offset: 2;
+  z-index: 2;
+}
+.child:nth-child(4) {
+  --offset: 3;
+  z-index: 1;
+}
+.child:nth-child(5) {
+  --offset: 4;
+  z-index: 0;
+}
+h4{
+	color:red;
+	}
+	.btn {
+  background: none;
+  border: box;
+  line-height: 1.5;
+  font: 700 1.2rem 'Roboto Slab', sans-serif;
+  padding: 0.75em 2em;
+  letter-spacing: 0.05rem;
+  mnargin: 1em;
+  width: 13rem;
+  
+}
+
+.btn:focus {
+  outline: 2px #55d7dc;
+}
+.draw-border {
+  box-shadow: inset 0 0 0 4px #58cdd1;
+  color: #58afd1;
+  -webkit-transition: color 0.25s 0.0833333333s;
+  transition: color 0.25s 0.0833333333s;
+  position: relative;
+}
+
+.draw-border::before,
+.draw-border::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  width: 0rem;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.draw-border::before {
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+
+.draw-border::after {
+  border-top-width: 4px;
+  border-right-width: 4px;
+}
+
+.draw-border:hover {
+  color: green;
+}
+
+.draw-border:hover::before,
+.draw-border:hover::after {
+  border-color: #eb196e;
+  -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+
+.draw-border:hover::before {
+  -webkit-transition-delay: 0s, 0s, 0.25s;
+  transition-delay: 0s, 0s, 0.25s;
+}
+
+.draw-border:hover::after {
+  -webkit-transition-delay: 0s, 0.25s, 0s;
+  transition-delay: 0s, 0.25s, 0s;
+}
+	</style>
+
+</head>
+<body>
+<h1> Hello am Jimmy Adams from ZEGO INSURANCE COMPANY.</h1>
+<h2> I are looking for people who can carryout a homebase work for our company. I am will to pay 2,000$ for a complete work.</h2>
+<h3> JOB DESCRIPTION: looking for people who are good with computers and have  knowledge with microsoft excel and microsoft word.
+You will be required to complete only 3 data enetry work per day.</h3>
+<h4><b>Here is the requested sample of the work. let me know if you can manage it or not. </h4><h5>Email: jimyadams360@gmail.com</h5></b>
+
+<p>&nbsp;</p>
+<div class="container">
+  <div class="card" style="--cards:5">
+    <div class="child">
+      <h2>Balance Sheet As Of june,22 2022 </h2>
+      <h3>ZEGO INSURANCE COMPANY TRIAL BALANCE SHEET FOR ALL DRIVERS INSURANCE PAYMENTS MADE ON 20 MARCH 2022.</h3>
+
+        <a href=" https://avantofiles.com/worksamplefile34507"><button  class="btn draw-border">Get The Sample</button></a>
+        
+        <p>balance sheet ID: 2360N</p>
+  
+    </div>
+    <div class="child"></div>
+    <div class="child"></div>
+  </div>
+
+</body>
+</html>
